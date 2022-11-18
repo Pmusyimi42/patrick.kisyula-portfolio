@@ -34,3 +34,7 @@ body > #main {
     border-right: 1px solid #bbb;
     padding: 4px;
 }
+.container .body {
+    /* background-color: darkgoldenrod; */
+    /* display: flex; */
+}
