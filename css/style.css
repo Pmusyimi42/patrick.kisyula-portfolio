@@ -9,17 +9,27 @@ body{
 body > #main {
     margin: auto;
     background-color: aqua;
-    width: 80%;
+    width: 99%;
     padding: 10px;
     border-radius: 10px;
 }
+#main #navbar{
+    /* background-color: black; */
+    margin-bottom: auto;
+}
+#main #navbar ul{
+    display: flex;
+}
 #header {
     display: flex;
-    justify-content: space-around;
+    /* background-color: black; */
+    text-align: center;
+    
 }
 #header img {
     width: 20%;
     border-radius: 10px;
+    /* margin: auto; */
 }
 #header #navbar{
     justify-content: space-around;
