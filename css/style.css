@@ -9,7 +9,7 @@ body{
 body > #main {
     margin: auto;
     background-color: aqua;
-    width: 65%;
+    width: 80%;
     padding: 10px;
     border-radius: 10px;
 }
@@ -19,6 +19,7 @@ body > #main {
 }
 #header img {
     width: 20%;
+    border-radius: 10px;
 }
 #header #navbar{
     justify-content: space-around;
@@ -34,10 +35,22 @@ body > #main {
     border-right: 1px solid #bbb;
     padding: 4px;
 }
-.container .kazi {
+.container #cards  {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.container #cards .card {
+    width: 40%;
+    
+}
+.container img {
     /* background-color: darkgoldenrod; */
     /* display: flex; */
-    width: 80%;
+    width: 40%;
     margin: auto;
+    position: absolute;
+    border-radius: 10px;
 
 }
