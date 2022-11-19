@@ -48,14 +48,16 @@ body > #main {
 .container #cards  {
     /* margin: auto; */
     width: 80%;
-    display: flex;
+    /* display: flex; */
     justify-content: space-around;
 }
 .container #cards .card {
-    width: 40%;
+    /* width: 99%; */
     margin-left: 20px;
     background-color: darkorange;
     color: blue;
+    padding: 20px;
+    margin-top: 20px;
     
 }
 .container img {
@@ -65,5 +67,11 @@ body > #main {
     margin: auto;
     /* position: absolute; */
     border-radius: 10px;
+
+}
+.container #projects .card {
+    background-color: deeppink;
+    padding: 10px;
+    margin-top: 20px;
 
 }
