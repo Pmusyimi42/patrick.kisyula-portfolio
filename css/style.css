@@ -83,3 +83,21 @@ body > #main {
     margin-top: 20px;
 
 }
+.container #contact a:hover {
+    color: burlywood;
+}
+.container .footer {
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    /* background-color: black; */
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container .footer .footed div {
+    display: inline;
+    padding: 20px;
+    width: 100%;
+    justify-content: space-around;
+}
