@@ -50,7 +50,7 @@ body > #main {
     /* display: flex; */
     width: 40%;
     margin: auto;
-    position: absolute;
+    /* position: absolute; */
     border-radius: 10px;
 
 }
