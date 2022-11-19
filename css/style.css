@@ -46,13 +46,16 @@ body > #main {
     padding: 4px;
 }
 .container #cards  {
-    margin: auto;
+    /* margin: auto; */
     width: 80%;
     display: flex;
     justify-content: space-around;
 }
 .container #cards .card {
     width: 40%;
+    margin-left: 20px;
+    background-color: darkorange;
+    color: blue;
     
 }
 .container img {
