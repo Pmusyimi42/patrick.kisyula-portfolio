@@ -13,18 +13,26 @@ body > #main {
     padding: 10px;
     border-radius: 10px;
 }
-#main #navbar{
-    /* background-color: black; */
-    margin-bottom: auto;
-}
+
 #main #navbar ul{
     display: flex;
 }
 #header {
     display: flex;
-    /* background-color: black; */
+    background-color: rgb(2, 79, 12);
     text-align: center;
     
+}
+#main #header #navbar{
+    /* background-color: black; */
+    margin-bottom: auto;
+    float: left;
+}
+#header #profile{
+    /* background-color: black; */
+    width: 50%;
+    text-align: center;
+    margin: auto;
 }
 #header img {
     width: 20%;
