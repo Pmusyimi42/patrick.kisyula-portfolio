@@ -1,17 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    background-color: yellow;
-    padding: 2%;
-}
-body > #main {
-    margin: auto;
-    background-color: aqua;
-    width: 99%;
-    padding: 10px;
-    border-radius: 10px;
+
+#main {
+    /* background-color: black; */
+    text-align: center;
+    padding: 50px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
 }
 
 #main #navbar ul{
@@ -19,8 +13,9 @@ body > #main {
 }
 #header {
     display: flex;
-    background-color: rgb(2, 79, 12);
+    background-color: rgb(199, 15, 171);
     text-align: center;
+    width: 82%;
     
 }
 #main #header #navbar{
@@ -30,7 +25,7 @@ body > #main {
 }
 #header #profile{
     /* background-color: black; */
-    width: 50%;
+    /* width: 50%; */
     text-align: center;
     margin: auto;
 }
@@ -39,8 +34,9 @@ body > #main {
     border-radius: 10px;
     /* margin: auto; */
 }
-#header #navbar{
-    justify-content: space-around;
+.main .card{
+    margin-left: 20%;
+    background-color: black;
 }
 #header #navbar ul{
     display: flex;
@@ -54,9 +50,7 @@ body > #main {
     padding: 4px;
 }
 .container #cards  {
-    /* margin: auto; */
     width: 80%;
-    /* display: flex; */
     justify-content: space-around;
 }
 .container #cards .card {
