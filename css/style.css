@@ -1,9 +1,9 @@
 body{
-    background-image: url('../images/bg.jpeg');
+    background-image: url('../images/yt.jpeg');
 }
 #main {
     text-align: center;
-    padding: 50px;
+    /* padding: 50px; */
     /* display: flex; */
     justify-content: center;
     align-items: center;
@@ -16,59 +16,78 @@ body{
     /* display: flex; */
     background-color: rgb(199, 15, 171);
     text-align: center;
-    width: 60%;
+    width: 70%;
     padding: 20px;
     margin: auto;
     
+}
+#bodie {
+    /* background-color: cyan;
+    text-align: center; */
+    /* width: 90%; */
+    padding: 20px;
+    margin: auto;
 }
 #main #header #navbar{
     /* background-color: black; */
     margin-bottom: auto;
     /* float: left; */
-    width: 60%;
+    width: 80%;
     margin: auto;
 }
-#header #profile{
-    /* background-color: black; */
-    /* width: 50%; */
+/* #header #profile{
+    background-color: black;
+    width: 50%;
     text-align: center;
     margin: auto;
-}
+    width: 90%;
+} */
 #header img {
     width: 20%;
     border-radius: 10px;
     /* margin: auto; */
 }
-.main .card{
-    margin-left: 20%;
+/* #header .card #profile{
     background-color: black;
-}
+    width: 90%;
+    text-align: center;
+} */
 #header #navbar ul{
-    display: flex;
-    color: rgb(63, 227, 30);
+    /* display: flex; */
+    /* color: rgb(63, 227, 30); */
     justify-content: space-around;
     list-style-type: none;
-    width: 90%;
+    width: 80%;
     /* float: left; */
 }
 #header #navbar ul li {
     border-right: 1px solid #bbb;
-    margin: auto;
+    width: 99%;
+}
+.container{
+    width: 100%;
+    /* background-color: black; */
+    text-align: center;
+    /* margin: auto; */
 }
 .container #cards  {
-    width: 80%;
-    justify-content: space-around;
-    margin: auto;
+    width: 100%;
+    /* justify-content: space-around; */
+    /* margin: auto; */
+    text-align: center;
+    
+
 }
 .container #cards .card {
     /* width: 99%; */
     /* margin-left: 20px; */
     background-color: darkorange;
     color: blue;
-    padding: 20px;
     margin-top: 20px;
-    /* margin: auto;
-     */
+    width: 100;
+    padding: 10px;
+    /* margin: auto; */
+    
 }
 .container img {
     /* background-color: darkgoldenrod; */
